@@ -138,3 +138,4 @@ def symmalg_homo(generators, g, n=0, d=0):
     A = K.augment(vector(gens_vecs[0]).column())
     print('\nmatrix A:\n')
     print(A)
+    return A
